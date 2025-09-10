@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "ecmel.vscode-html-css",
+    "ms-vscode.vscode-css-peek",
+    "ritwickdey.liveserver",
+    "glenn2223.live-sass",
+    "zignd.html-css-class-completion",
+    "pranaygp.vscode-css-peek",
+    "formulahendry.auto-close-tag",
+    "ms-vscode.vscode-json",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
