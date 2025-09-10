@@ -1,0 +1,76 @@
+.header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  min-height: 70px;
+}
+.main-nav-user {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.fa-circle-user {
+  font-size: 1.5rem;
+  color: #6ab891;
+}
+
+.main-nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-logo-image {
+  width: 160px;
+  height: auto;
+}
+
+.main-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-nav-item {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #6ab891;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  text-decoration: none;
+  
+  margin-right: 0.5rem;
+}
+
+.main-nav-item:last-child {
+  margin-right: 0;
+}
+
+.main-nav-item:hover {
+  color: #009e5f;
+  text-decoration: underline;
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}

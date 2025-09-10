@@ -1,0 +1,23 @@
+.user-action-button {
+  min-width: 140px;
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  color: #fff;
+  display: inline-block;
+}
+
+.user-action-button.primary {
+  background-color: #00bc77;
+}
+
+.user-action-button.primary:hover {
+  background-color: #009e5f;
+}
+

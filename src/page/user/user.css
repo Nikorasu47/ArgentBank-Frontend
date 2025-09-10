@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+}
+
+.edit-user-section {
+  max-width: 40%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+
+}
+
+.edit-user-title {
+  text-align: center;
+  margin-bottom: 2rem;
+ 
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  zoom: 100%;
+}
+
+.edit-user-field {
+  margin-bottom: 1rem;
+}
+
+.edit-user-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.edit-user-input.disabled {
+  background: #eee;
+}
+
+.edit-user-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.user-action-button.primary {
+  flex: 1;
+  background: #6ab891;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.edit-user-error {
+  color: red;
+  text-align: center;
+  margin-top: 1rem;
+}
